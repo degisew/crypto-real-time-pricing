@@ -1,9 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 const fetchData = createAsyncThunk("fetchInfo", async () => {
-    const response = await fetch('https://api.coincap.io/v2/assets/?limit=10');
+    const response = await fetch('https://api.coincap.io/v2/assets/?limit=20');
     const { data } = await response.json();
-    // console.log(data);
     return data;
 });
 

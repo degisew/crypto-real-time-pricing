@@ -5,7 +5,6 @@ import Crypto from './Crypto/Crypto';
 const Cryptos = () => {
   return (
     <Container>
-        <div className="spacer-div" />
       <Grid
         container
         justifyContent="center"
