@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from '../../redux/reducer';
 import Cryptos from '../Cryptos/Cryptos';
 
 const Home = () => {
+   const data = useSelector((state) => state.crypto.crypto);
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchData());
-  }, []);
+    if(data.length === 0 ) dispatch(fetchData());
+  }, [data.length, dispatch]);
   return (
     <div>
       <Cryptos/>

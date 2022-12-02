@@ -21,12 +21,20 @@ const Details = () => {
             <Typography>{state.name}</Typography>
           </div>
           <div className="container">
-            <Typography>ID:</Typography>
-            <Typography>{state.id}</Typography>
+            <Typography>Rank:</Typography>
+            <Typography>{state.rank}</Typography>
           </div>
           <div className="container">
             <Typography>Symbol:</Typography>
             <Typography>{state.symbol}</Typography>
+          </div>
+          <div className="container">
+            <Typography>changePercent/24Hr:</Typography>
+            <Typography>{state.changePercent24Hr}</Typography>
+          </div>
+          <div className="container">
+            <Typography>priceUsd:</Typography>
+            <Typography>{state.priceUsd}</Typography>
           </div>
           <div className="container">
             <Typography>Supply:</Typography>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+
 import { Link } from 'react-router-dom';
 import { Grid, Card, CardContent, Typography } from '@mui/material';
-import styles from './styles';
-const Crypto = () => {
-    const data = useSelector((state) => (state.crypto.crypto));
-    console.log(data);
 
+import styles from './styles';
+
+const Crypto = ({ data }) => {
+  
   return (
     <>
       {data.map((crypto) => (
