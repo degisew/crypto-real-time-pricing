@@ -36,7 +36,7 @@ const Crypto = ({ data }) => (
 );
 
 Crypto.propTypes = {
-  data: PropTypes.array.isRequired,
+  data: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default Crypto;
