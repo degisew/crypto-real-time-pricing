@@ -10,7 +10,7 @@
 </div>
 
 
-[Documentation video](https://drive.google.com/file/d/1z4ao_rLHpCeI6x8hjj0EQyjBUy3XjXIS/view?usp=sharing)
+[](https://www.loom.com/share/0a835d764a5c445186af335566805682)
 
 # crtpto-real-time-pricing
 A website used for real-time pricing and market activity for over 1,000 cryptocurrencies. It fetchs Data from CoinCap API 2.0 and offer transparent and accurate data on asset price and availability.
@@ -160,6 +160,7 @@ Feel free to check the [issues page](https://github.com/degisew/crypto-real-time
 ## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
 > Thanks to Microverse and my Coding Partners
+> credit to:  Nelson Sakwa on Behance who did Original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
