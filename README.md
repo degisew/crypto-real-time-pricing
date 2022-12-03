@@ -16,7 +16,12 @@ A website used for real-time pricing and market activity for over 1,000 cryptocu
 
 ### Tech Stack <a id="tech-stack"></a>
 
-> To build this project we used a tech stack detailed below:
+> To build this project I used a tech stack detailed below:
+- React
+- Redux
+- Material-UI
+- CoinCap API
+- CSS3
 
 <details>
   <summary>Client</summary>
@@ -31,9 +36,9 @@ A website used for real-time pricing and market activity for over 1,000 cryptocu
 
 ### Key Features <a id="key-features"></a>
 
-- **User Can book a rocket**
-- **user can see his profile with reserved rockets and mmissions**
-- **User can Cancel his booking any time.**
+- **User Can see the crypto list and rank**
+- **user can search his favorite crypto**
+- **User can see the detail info about the selected crypto**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,7 +48,7 @@ A website used for real-time pricing and market activity for over 1,000 cryptocu
 
 > Please click the link below to open our webpage in your browser
 
-- [Live Demo Link]( https://degisew-space-travelers-hub.netlify.app/)
+- [Live Demo Link]( https://degisew-crypto.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +73,7 @@ Clone this repository to your desired folder:
 2. Clone this repo in your terminal or git bash using the command
 
    ```
-     git clone <URL> 'https://github.com/Olivier-Kango/space-travelers-hub' in your terminal
+     git clone <URL> 'https://github.com/degisew/crypto-real-time-pricing' in your terminal
       
    ```
 
@@ -104,7 +109,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-- [Netlify](https://app.netlify.com/teams/olivierkango/overview), or
+- [Netlify](https://app.netlify.com/teams/ethiopia/overview), or
 - [Vercel](https://vercel.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,14 +118,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a id="authors"></a>
 
-> This project was built by two Developers:
-
-
-👤 **Olivier Kango**
-
-- GitHub: [@githubolivier](https://github.com/Olivier-Kango)
-- Twitter: [@twitterolivier](https://twitter.com/olivierkango1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olivier-kango-b990601b8/)
+> This project was built by:
 
 👤 **Degisew**
 - GitHub: [degisew](https://github.com/degisew)
@@ -133,9 +131,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a id="future-features"></a>
 
-- **We will add a dragon page**
-- **we will add a little inspirational quote**
-- **we will add about us page**
+- **I will work on the styling part to make it better**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +141,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Olivier-Kango/space-travelers-hub/issues/new).
+Feel free to check the [issues page](https://github.com/degisew/crypto-real-time-pricing/issues/new).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
