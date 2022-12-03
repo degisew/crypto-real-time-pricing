@@ -10,7 +10,7 @@
 </div>
 
 
-[](https://www.loom.com/share/0a835d764a5c445186af335566805682)
+[Documentation Video](https://www.loom.com/share/0a835d764a5c445186af335566805682)
 
 # crtpto-real-time-pricing
 A website used for real-time pricing and market activity for over 1,000 cryptocurrencies. It fetchs Data from CoinCap API 2.0 and offer transparent and accurate data on asset price and availability.
