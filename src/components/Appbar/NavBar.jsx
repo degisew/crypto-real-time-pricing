@@ -15,7 +15,7 @@ const NavBar = () => {
     <div>
       <AppBar sx={styles.appbar}>
         <Toolbar sx={styles.toolbar}>
-          {location.pathname !== "/" ? (
+          {location.pathname !== '/' ? (
             <ArrowBackIosSharp onClick={() => navigate(-1)} />
           ) : (
             <div />
@@ -28,6 +28,6 @@ const NavBar = () => {
       </AppBar>
     </div>
   );
-}
+};
 
 export default NavBar;

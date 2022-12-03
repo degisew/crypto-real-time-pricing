@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Paper, Typography, Container } from '@mui/material';
 import styles from './styles';
 
 const Details = () => {
-   const location = useLocation();
+  const location = useLocation();
   const { state } = location;
   return (
     <>
-      <div className="details-page-spacer-div"></div>
+      <div className="details-page-spacer-div" />
       <Container sx={styles.container}>
         <div className="title">
           <Typography variant="h4" gutterBottom>
@@ -44,6 +44,6 @@ const Details = () => {
       </Container>
     </>
   );
-}
+};
 
-export default Details
+export default Details;

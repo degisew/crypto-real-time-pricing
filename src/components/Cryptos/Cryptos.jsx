@@ -1,21 +1,20 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
 import { Container, Grid } from '@mui/material';
-import { SearchRounded } from "@mui/icons-material";
+import { SearchRounded } from '@mui/icons-material';
 import Crypto from './Crypto/Crypto';
 
 const Cryptos = () => {
-   const data = useSelector((state) => state.crypto.crypto);
-   console.log(data);
-   const [searchItem, setSearchItem] = useState("");
+  const data = useSelector((state) => state.crypto.crypto);
+  const [searchItem, setSearchItem] = useState('');
 
-   const filteredData = data.filter((crypto) => {
-     if (searchItem === "") return crypto;
-     if (crypto.name.toLowerCase().includes(searchItem.toLowerCase())) {
-       return crypto;
-     }
-     return null;
-   });
+  const filteredData = data.filter((crypto) => {
+    if (searchItem === '') return crypto;
+    if (crypto.name.toLowerCase().includes(searchItem.toLowerCase())) {
+      return crypto;
+    }
+    return null;
+  });
   return (
     <Container>
       <div className="search-bar">
@@ -41,6 +40,6 @@ const Cryptos = () => {
       </Grid>
     </Container>
   );
-}
+};
 
-export default Cryptos
+export default Cryptos;
