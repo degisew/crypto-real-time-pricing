@@ -21,7 +21,7 @@ const Crypto = ({ data }) => {
           state={crypto}
         >
           <Card sx={styles.card}>
-            <CardContent>
+            <CardContent data-testid="content">
               <Typography variant="h5">{crypto.name}</Typography>
               <Typography variant="body1">{crypto.symbol}</Typography>
               <Typography variant="body2">{crypto.supply}</Typography>

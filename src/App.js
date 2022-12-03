@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import NavBar from "./components/Appbar/NavBar";
-import Details from "./components/Details/Details";
-import Home from "./components/Home/Home";
+import NavBar from './components/Appbar/NavBar';
+import Details from './components/Details/Details';
+import Home from './components/Home/Home';
+
 function App() {
   return (
     <div className="App">

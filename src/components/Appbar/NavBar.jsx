@@ -21,7 +21,7 @@ const NavBar = () => {
           ) : (
             <div />
           )}
-          <div className="appbar-icon-div">
+          <div className="appbar-icon-div" data-testid="appbar-icon-div">
             <KeyboardVoice />
             <Settings />
           </div>

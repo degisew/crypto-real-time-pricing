@@ -1,12 +1,12 @@
 const styles = {
   grid: {
-    textDecorationLine: "none",
+    textDecorationLine: 'none',
   },
   card: {
-    minHeight: "170px",
-    minWidth: "70px",
-    backgroundColor: "#112340",
-    color: "#fff",
+    minHeight: '170px',
+    minWidth: '70px',
+    backgroundColor: '#112340',
+    color: '#fff',
   },
 };
 

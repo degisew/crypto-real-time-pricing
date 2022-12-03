@@ -1,14 +1,12 @@
-
-
 const styles = {
   appbar: {
-    backgroundColor: "#112340",
-    color: "#fff",
+    backgroundColor: '#112340',
+    color: '#fff',
   },
   toolbar: {
-    display: "flex",
-    justifyContent: "space-between",
+    display: 'flex',
+    justifyContent: 'space-between',
   },
 };
 
-export default styles
+export default styles;

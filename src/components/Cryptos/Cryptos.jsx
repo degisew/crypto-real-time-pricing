@@ -22,8 +22,8 @@ const Cryptos = () => {
         <input
           type="search"
           name=""
-          id=""
-          placeholder="Search crypto...."
+          id="search"
+          placeholder="Search crypto..."
           onChange={(e) => {
             setSearchItem(e.target.value);
           }}
