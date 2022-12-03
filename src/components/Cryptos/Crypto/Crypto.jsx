@@ -6,7 +6,6 @@ import { Grid, Card, CardContent, Typography } from '@mui/material';
 import styles from './styles';
 
 const Crypto = ({ data }) => {
-  
   return (
     <>
       {data.map((crypto) => (
@@ -32,5 +31,9 @@ const Crypto = ({ data }) => {
     </>
   );
 }
+
+Crypto.propTypes = {
+  data: PropTypes.instanceOf(Object).isRequired,
+};
 
 export default Crypto
